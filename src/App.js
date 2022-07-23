@@ -73,12 +73,12 @@ function App() {
           }
       }
       let copy = document.getElementById("copy")
-      if (copy){
+      if (copy){ // If copy button exists, ensure it reads as "Copy Password"
         copy.innerText = "Copy Password"    
       }
   }
 
-  const Copy = async () => {
+  const Copy = async () => { // Copies password to clipboard and changes copy button to read "Copied!" once clicked
     await navigator.clipboard.writeText(password)
     let copy = document.getElementById("copy")
     copy.innerText = "Copied!"
