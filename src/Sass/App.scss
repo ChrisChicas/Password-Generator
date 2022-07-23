@@ -1,7 +1,36 @@
-.container-fluid{
-    padding: 0;
+$main-bg: #14213D; // Main background color
+$contrast-color: #E5E5E5; // Color for text/input/button to contrast with main-bg
+
+body{
+    background-color: #14213D;
+    color: $contrast-color;
+}
+
+.btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: $contrast-color;
 }
 
 .form-control{
     width: auto;
+    background-color: $contrast-color;
+}
+
+.form-check-input{
+    background-color: $contrast-color;
+}
+
+.main{
+    padding: 1em;
+}
+
+.password{
+    overflow-wrap: break-word;
+    padding: 0;
+}
+
+.special{
+    display: inline-block;
+    margin-right: 1em;
 }

@@ -1,7 +1,33 @@
-.container-fluid {
-  padding: 0;
+body {
+  background-color: #14213D;
+  color: #E5E5E5;
+}
+
+.btn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #E5E5E5;
 }
 
 .form-control {
   width: auto;
+  background-color: #E5E5E5;
+}
+
+.form-check-input {
+  background-color: #E5E5E5;
+}
+
+.main {
+  padding: 1em;
+}
+
+.password {
+  overflow-wrap: break-word;
+  padding: 0;
+}
+
+.special {
+  display: inline-block;
+  margin-right: 1em;
 }/*# sourceMappingURL=App.css.map */

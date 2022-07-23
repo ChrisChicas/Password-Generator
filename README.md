@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Password Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple random password generator built with React and styled with Bootstrap and a bit of Sass. 
 
-## Available Scripts
+## Features
+- Select different password difficulties which determine their length: Easy (8), Medium (12) & Hard (16)! (Password length displayed next to the difficulty)
+- Password lengths not to your liking? Select custom length to determine your own password length! (Custom length must be above or at 6 characters)
+- Select whether or not to include special characters in your password! (Special characters include: ~!@#$%^&*()-_+={[]}|';:/?,.<>)
+- Once all of your preferences are selected, simply click the "Generate!" button to generate your password!
+- Not a fan of the password generated for you? Passwords are generated randomly and displayed dynamically, so you can click the "Generate!" button as many times until you get a password you are satisfied with!
 
-In the project directory, you can run:
+## Application Link
+- Hosted on
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Local Setup
+- If you'd rather run the application locally, simply git clone this repo down into your local machine using a terminal and cd into the folder.
+- Afterwards, open the code editor of your choice within the folder. In the code editor's terminal, run `npm install` to install all necessary dependencies.
+- Once that is complete, run `npm run start` to start the application!
