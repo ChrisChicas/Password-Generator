@@ -72,7 +72,16 @@ function App() {
               setPassword(newPass)
           }
       }
+      let copy = document.getElementById("copy")
+      copy.innerText = "Copy Password"
   }
+
+  const Copy = () => {
+    navigator.clipboard.writeText(password)
+    let copy = document.getElementById("copy")
+    copy.innerText = "Copied!"
+  }
+
   return (
     <main className="container-fluid main">
         <h1><u>Password Generator</u></h1>
@@ -107,7 +116,9 @@ function App() {
         </form>
         { password ? 
         <div className="container-fluid password">
-            <h2><u>Your password:</u><br/> {password}</h2>
+            <h2><u>Your password:</u></h2>
+            <h2>{password}</h2>
+            <button onClick={Copy} className="btn btn-light" id="copy" type="submit">Copy Password</button>
         </div> :
         null } 
         {/* Above div will only appear after a password has been generated */}
