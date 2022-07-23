@@ -73,11 +73,13 @@ function App() {
           }
       }
       let copy = document.getElementById("copy")
-      copy.innerText = "Copy Password"
+      if (copy){
+        copy.innerText = "Copy Password"    
+      }
   }
 
-  const Copy = () => {
-    navigator.clipboard.writeText(password)
+  const Copy = async () => {
+    await navigator.clipboard.writeText(password)
     let copy = document.getElementById("copy")
     copy.innerText = "Copied!"
   }
